@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/termcolor/
 License:	MIT
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(hatchling)
 BuildArch:	noarch
 
 %description
