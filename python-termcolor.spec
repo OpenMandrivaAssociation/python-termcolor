@@ -1,5 +1,5 @@
 Name:		python-termcolor
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/t/termcolor/termcolor-%{version}.tar.gz
 Summary:	ANSI color formatting for output in terminal
