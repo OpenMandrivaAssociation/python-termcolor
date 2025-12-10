@@ -1,11 +1,12 @@
 Name:		python-termcolor
-Version:	2.5.0
+Version:	3.2.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/t/termcolor/termcolor-%{version}.tar.gz
 Summary:	ANSI color formatting for output in terminal
 URL:		https://pypi.org/project/termcolor/
 License:	MIT
 Group:		Development/Python
+BuildSystem:	python
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(hatch-vcs)
@@ -13,15 +14,6 @@ BuildArch:	noarch
 
 %description
 ANSI color formatting for output in terminal
-
-%prep
-%autosetup -p1 -n termcolor-%{version}
-
-%build
-%py_build
-
-%install
-%py_install
 
 %files
 %{py_sitedir}/termcolor
